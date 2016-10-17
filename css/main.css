@@ -1,5 +1,10 @@
+#love {
+  padding: 2px;
+}
+
 .main-content {
     text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .title {
@@ -29,4 +34,15 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #3498db;
+}
+
+.bio {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
 }
