@@ -38,12 +38,8 @@ a:hover {
 }
 
 .bio {
-  width: 700px;
+  max-width: 700px;
+  min-width: 320px;
   margin-right: auto;
   margin-left: auto;
-}
-img {
-    float: left;
-    border: 1px dotted black;
-    margin: 0px 0px 15px 20px;
 }
