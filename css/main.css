@@ -1,6 +1,6 @@
 #love {
-  padding: 5px;
-  border-radius: 15px
+    padding: 5px;
+    border-radius: 15px
 }
 
 .main-content {
@@ -12,10 +12,13 @@
     font-size: 50px;
 }
 
-.list li {
-    list-style: none;
+ul {
     margin: 0;
     padding: 0;
+}
+
+.list li {
+    list-style: none;
 }
 
 .inline li {
@@ -27,19 +30,27 @@ a:link {
     color: #2A5DB0;
 }
 
+
 /* visited link */
+
 a:visited {
     color: #2200CC;
 }
 
+
 /* mouse over link */
+
 a:hover {
     color: #3498db;
 }
 
 .bio {
-  max-width: 700px;
-  min-width: 320px;
-  margin-right: auto;
-  margin-left: auto;
+    max-width: 700px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+html, body {
+    min-width: 360px;
 }
